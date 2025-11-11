@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64" role="img" aria-label="A‑Level Central">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#g)"/>
+  <!-- subtle inner highlight -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <!-- Monogram: A+ -->
+  <g fill="#fff" transform="translate(0,2)">
+    <path d="M22.8 41.5l1.8-5.3h10.8l1.8 5.3h4.7L31.8 17h-3.7L18 41.5h4.8zm7-20.8l4 11.7H25.8l4-11.7z"/>
+    <rect x="41.5" y="25" width="3.5" height="12" rx="1"/>
+    <rect x="38" y="28.5" width="10.5" height="3.5" rx="1"/>
+  </g>
+</svg>
+
