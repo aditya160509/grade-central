@@ -14,6 +14,10 @@ This is a student‑made project that brings together links to high‑quality, p
 
 ⚠️ Disclaimer: None of the notes or PDFs are owned by this project. All content belongs to the original creators (see Credits). This is a non‑commercial school project intended to save students time and direct attention back to the original sources.
 
+## Project Demo
+
+- Live site: https://grade-central.vercel.app
+
 ## Features
 
 - Organized subjects and topics for quick navigation
@@ -129,4 +133,4 @@ Suggestions and improvements are welcome. Feel free to open an issue or pull req
 
 ## License
 
-See LICENSE file for more [MIT].
+See the [LICENSE](LICENSE) file for more [MIT].
