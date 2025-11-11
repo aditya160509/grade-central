@@ -1,0 +1,29 @@
+{
+  "subject": "Further Mathematics",
+  "files": [
+    { "title": "1.1 Roots of Polynomial Equations", "link": "https://drive.google.com/file/d/1mz3csPkuawg7qYKRbrA-6vBAKPDw5zl8/view?usp=drive_link" },
+    { "title": "1.2 Rational Functions and Graphs", "link": "https://drive.google.com/file/d/19lYVPp5OpcXFQSvVtVhXoUh06_2lfFTp/view?usp=drive_link" },
+    { "title": "1.3 Summation of Series", "link": "https://drive.google.com/file/d/1XtAJKqTplqnS051NC0MEjj4RtPZwS_P2/view?usp=drive_link" },
+    { "title": "1.4 Matrices", "link": "https://drive.google.com/file/d/13IURi1qCPjROudRFCSnvmQbbEdAszB5n/view?usp=drive_link" },
+    { "title": "1.5 Polar Coordinates", "link": "https://drive.google.com/file/d/1AH2L45nEyXdqiLli9UhvSgSgBLzLSzwl/view?usp=drive_link" },
+    { "title": "1.6 Vectors", "link": "https://drive.google.com/file/d/1xtUSHQTDTtHqJbFQEgPWmzcZJWD3xlcr/view?usp=drive_link" },
+    { "title": "1.7 Proof by Induction", "link": "https://drive.google.com/file/d/1UWYJN93PXU0k-RPJl6pL2ouvJBuvuZC6/view?usp=drive_link" },
+    { "title": "2.1 Hyperbolic Functions", "link": "https://drive.google.com/file/d/1UMkom0-NN51gZO81Yool-VCT-hxOmmdu/view?usp=drive_link" },
+    { "title": "2.2 Matrices (Advanced)", "link": "https://drive.google.com/file/d/16x_TW7DfiadPAIP7tN3UK--NERklRDjM/view?usp=drive_link" },
+    { "title": "2.3 Differentiation", "link": "https://drive.google.com/file/d/15b7P2WBuh0gzMbCMW8sugLLpk44RlvS_/view?usp=drive_link" },
+    { "title": "2.4 Integration", "link": "https://drive.google.com/file/d/1pNAG_BngogeWF40tW8rC8KejJB79ku-3/view?usp=drive_link" },
+    { "title": "2.5 Complex Numbers", "link": "https://drive.google.com/file/d/1kHz6EfFIpuBvF_KO8V3JEfxt9ssHWLqt/view?usp=drive_link" },
+    { "title": "2.6 Differential Equations", "link": "https://drive.google.com/file/d/1Kzo3a53ZTZJH1fE8Lu9w-k4-uoZsc5A2/view?usp=drive_link" },
+    { "title": "3.1 Motion of a Projectile", "link": "https://drive.google.com/file/d/1qr3r5bq6FxaXmsj8GWgb1n2tKZu0MIk2/view?usp=drive_link" },
+    { "title": "3.2 Equilibrium of a Rigid Body", "link": "https://drive.google.com/file/d/1lX0M2ZcyIl_uyIoCaq_Jze9jxwnrOFsN/view?usp=drive_link" },
+    { "title": "3.3 Circular Motion", "link": "https://drive.google.com/file/d/16UP6x2v5KKIn6-dq4jJpu2WKE8X0u157/view?usp=drive_link" },
+    { "title": "3.4 Hooke’s Law", "link": "https://drive.google.com/file/d/1B5TJzivxdgFR_YQOUkFK2JRWwTVAesc1/view?usp=drive_link" },
+    { "title": "3.5 Linear Motion under a Variable Force", "link": "https://drive.google.com/file/d/1fbRFNiZUuCIo3xB1kjJLJjj_p8I9_FLz/view?usp=drive_link" },
+    { "title": "3.6 Momentum", "link": "https://drive.google.com/file/d/1_t64gfroQt3X4eOc2bjmPZjPQJ_tL1P5/view?usp=drive_link" },
+    { "title": "4.1 Continuous Random Variables", "link": "https://drive.google.com/file/d/1_dF0JELaHE6B--8pxrDZQ7POeifZ1CD3/view?usp=drive_link" },
+    { "title": "4.2 Inference using Normal and t-Distributions", "link": "https://drive.google.com/file/d/1CLvA8j7TWjwduL2rU2um0-OsF6zrmaPM/view?usp=drive_link" },
+    { "title": "4.3 Chi-squared Tests", "link": "https://drive.google.com/file/d/1HyMsjBA7zUhxQ-SQZwQd5HMTSsL95rmZ/view?usp=drive_link" },
+    { "title": "4.4 Non-parametric Tests", "link": "https://drive.google.com/file/d/1htJC_hmbMGB5PiL-97hyaeCp7p45Zgo6/view?usp=drive_link" },
+    { "title": "4.5 Probability Generating Functions", "link": "https://drive.google.com/file/d/1xgIgnr6eFAjgk_Gy7eDWVLuNduHECR-X/view?usp=drive_link" }
+  ]
+}

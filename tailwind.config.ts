@@ -1,0 +1,115 @@
+import type { Config } from "tailwindcss";
+
+export default {
+	darkMode: ["class"],
+	content: [
+		"./pages/**/*.{ts,tsx}",
+		"./components/**/*.{ts,tsx}",
+		"./app/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}",
+	],
+	prefix: "",
+	theme: {
+		container: {
+			center: true,
+			padding: '2rem',
+			screens: {
+				'2xl': '1400px'
+			}
+		},
+		extend: {
+			colors: {
+				border: 'hsl(var(--border))',
+				input: 'hsl(var(--input))',
+				ring: 'hsl(var(--ring))',
+				background: 'hsl(var(--background))',
+				foreground: 'hsl(var(--foreground))',
+				primary: {
+					DEFAULT: 'hsl(var(--primary))',
+					foreground: 'hsl(var(--primary-foreground))'
+				},
+				secondary: {
+					DEFAULT: 'hsl(var(--secondary))',
+					foreground: 'hsl(var(--secondary-foreground))'
+				},
+				destructive: {
+					DEFAULT: 'hsl(var(--destructive))',
+					foreground: 'hsl(var(--destructive-foreground))'
+				},
+				muted: {
+					DEFAULT: 'hsl(var(--muted))',
+					foreground: 'hsl(var(--muted-foreground))'
+				},
+				accent: {
+					DEFAULT: 'hsl(var(--accent))',
+					foreground: 'hsl(var(--accent-foreground))'
+				},
+				popover: {
+					DEFAULT: 'hsl(var(--popover))',
+					foreground: 'hsl(var(--popover-foreground))'
+				},
+				card: {
+					DEFAULT: 'hsl(var(--card))',
+					foreground: 'hsl(var(--card-foreground))'
+				},
+				// Subject-specific colors
+				subjects: {
+					mathematics: 'hsl(var(--mathematics))',
+					'mathematics-dark': 'hsl(var(--mathematics-dark))',
+					'further-math': 'hsl(var(--further-math))',
+					'further-math-dark': 'hsl(var(--further-math-dark))',
+					'further-mathematics': 'hsl(var(--further-mathematics))',
+					'further-mathematics-dark': 'hsl(var(--further-mathematics-dark))',
+					physics: 'hsl(var(--physics))',
+					'physics-dark': 'hsl(var(--physics-dark))',
+					chemistry: 'hsl(var(--chemistry))',
+					'chemistry-dark': 'hsl(var(--chemistry-dark))',
+					biology: 'hsl(var(--biology))',
+					'biology-dark': 'hsl(var(--biology-dark))',
+					economics: 'hsl(var(--economics))',
+					'economics-dark': 'hsl(var(--economics-dark))',
+					'computer-science': 'hsl(var(--computer-science))',
+					'computer-science-dark': 'hsl(var(--computer-science-dark))',
+					sociology: 'hsl(var(--sociology))',
+					'sociology-dark': 'hsl(var(--sociology-dark))',
+					psychology: 'hsl(var(--psychology))',
+					'psychology-dark': 'hsl(var(--psychology-dark))',
+					accounting: 'hsl(var(--accounting))',
+					'accounting-dark': 'hsl(var(--accounting-dark))',
+					business: 'hsl(var(--business))',
+					'business-dark': 'hsl(var(--business-dark))',
+					'business-studies': 'hsl(var(--business-studies))',
+					'business-studies-dark': 'hsl(var(--business-studies-dark))',
+				}
+			},
+			borderRadius: {
+				lg: 'var(--radius)',
+				md: 'calc(var(--radius) - 2px)',
+				sm: 'calc(var(--radius) - 4px)'
+			},
+			keyframes: {
+				'accordion-down': {
+					from: {
+						height: '0'
+					},
+					to: {
+						height: 'var(--radix-accordion-content-height)'
+					}
+				},
+				'accordion-up': {
+					from: {
+						height: 'var(--radix-accordion-content-height)'
+					},
+					to: {
+						height: '0'
+					}
+				}
+			},
+			animation: {
+				'accordion-down': 'accordion-down 0.2s ease-out',
+				'accordion-up': 'accordion-up 0.2s ease-out'
+			}
+		}
+	},
+	plugins: [require("tailwindcss-animate")],
+} satisfies Config;

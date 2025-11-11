@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* A-Level Central Design System - Academic Excellence Theme */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 230 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 230 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 230 15% 15%;
+
+    --primary: 230 50% 25%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 220 15% 96%;
+    --secondary-foreground: 230 15% 15%;
+
+    --muted: 220 15% 96%;
+    --muted-foreground: 230 8% 55%;
+
+    --accent: 215 25% 92%;
+    --accent-foreground: 230 15% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 90%;
+    --input: 220 20% 94%;
+    --ring: 230 50% 25%;
+
+    --radius: 0.75rem;
+
+    /* Academic Color Palette - Pastel Subjects */
+    --mathematics: 210 100% 90%;
+    --mathematics-dark: 210 80% 40%;
+    --further-math: 280 100% 90%;
+    --further-math-dark: 280 70% 45%;
+    --further-mathematics: var(--further-math);
+    --further-mathematics-dark: var(--further-math-dark);
+    --physics: 195 100% 88%;
+    --physics-dark: 195 80% 40%;
+    --chemistry: 150 100% 88%;
+    --chemistry-dark: 150 70% 35%;
+    --biology: 160 100% 85%;
+    --biology-dark: 160 80% 35%;
+    --economics: 35 100% 88%;
+    --economics-dark: 35 80% 45%;
+    --computer-science: 250 100% 90%;
+    --computer-science-dark: 250 80% 45%;
+    --sociology: 330 100% 88%;
+    --sociology-dark: 330 70% 45%;
+    --psychology: 270 100% 88%;
+    --psychology-dark: 270 70% 45%;
+    --accounting: 45 100% 88%;
+    --accounting-dark: 45 80% 45%;
+    --business: 10 100% 88%;
+    --business-dark: 10 80% 45%;
+    --business-studies: var(--business);
+    --business-studies-dark: var(--business-dark);
+
+    /* Interactive Elements */
+    --hero-gradient: linear-gradient(135deg, hsl(230 50% 25%), hsl(250 60% 35%));
+    --card-hover-shadow: 0 10px 40px -10px hsl(230 50% 25% / 0.2);
+    --success: 140 70% 85%;
+    --success-dark: 140 80% 35%;
+
+    /* Typography Enhancement */
+    --heading-gradient: linear-gradient(135deg, hsl(230 50% 25%), hsl(250 60% 35%));
+    --text-shadow: 0 1px 2px hsl(230 15% 15% / 0.1);
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 230 25% 8%;
+    --foreground: 210 40% 95%;
+
+    --card: 230 20% 12%;
+    --card-foreground: 210 40% 95%;
+
+    --popover: 230 20% 12%;
+    --popover-foreground: 210 40% 95%;
+
+    --primary: 210 40% 85%;
+    --primary-foreground: 230 25% 8%;
+
+    --secondary: 230 15% 18%;
+    --secondary-foreground: 210 40% 95%;
+
+    --muted: 230 15% 18%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 230 15% 22%;
+    --accent-foreground: 210 40% 95%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 210 40% 95%;
+
+    --border: 230 15% 22%;
+    --input: 230 15% 18%;
+    --ring: 210 40% 85%;
+
+    /* Dark mode subject colors */
+    --mathematics: 210 60% 25%;
+    --further-math: 280 60% 30%;
+    --further-mathematics: var(--further-math);
+    --physics: 195 60% 25%;
+    --chemistry: 150 60% 25%;
+    --biology: 160 60% 25%;
+    --economics: 35 60% 30%;
+    --computer-science: 250 60% 30%;
+    --sociology: 330 60% 30%;
+    --psychology: 270 60% 30%;
+    --accounting: 45 60% 30%;
+    --business: 10 60% 30%;
+    --business-studies: var(--business);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-foreground;
+  }
+}
+
+@layer components {
+  .hero-heading {
+    @apply bg-gradient-to-r from-primary to-accent-foreground bg-clip-text text-transparent;
+  }
+
+  .subject-card {
+    @apply transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-1;
+  }
+
+  .download-btn {
+    @apply transition-all duration-200 hover:scale-105 active:scale-95;
+  }
+
+  .btn {
+    @apply inline-flex w-full items-center justify-center rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40;
+  }
+
+  .search-focus {
+    @apply focus:ring-2 focus:ring-primary/20 focus:border-primary;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+}
